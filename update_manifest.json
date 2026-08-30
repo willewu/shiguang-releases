@@ -1,7 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.1.0/app-debug.apk",
-  "changelog": "- 新增应用内在线更新（清单检查/下载进度/一键安装）\n- 回顾页支持周报/月报/季报/半年报/年报\n- 新增 AI 大模型报告（自配置 OpenAI 兼容 API）\n- 新增心情趋势与写作热力图可视化",
+  "versionCode": 3,
+  "versionName": "1.1.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.1.1/app-debug.apk",
+  "changelog": "- 新增应用图标（暖阳与日记本主题）\n- 修复 AI 报告输出大量 null 的问题（流式解析类型校验）\n- 新增 AI 报告字数上限设置（200-2000 字，默认 600）",
   "minSupported": 1
 }

@@ -1,7 +1,11 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.1",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.1.1/app-debug.apk",
-  "changelog": "- 新增应用图标（暖阳与日记本主题）\n- 修复 AI 报告输出大量 null 的问题（流式解析类型校验）\n- 新增 AI 报告字数上限设置（200-2000 字，默认 600）",
+  "versionCode": 4,
+  "versionName": "1.1.2",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.1.2/app-debug.apk",
+  "mirrors": [
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.1.2/app-debug.apk"
+  ],
+  "sha256": "d77e5f3e96625d026b1683da662161a58eb0f537bd6b1fde7c7e4a317e4f0938",
+  "changelog": "- 更新下载提速：多下载源自动切换（GitHub 直连慢时自动切加速镜像）\n- 下载界面显示实时速度，下载完成校验 SHA-256 防篡改",
   "minSupported": 1
 }

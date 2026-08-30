@@ -1,0 +1,7 @@
+{
+  "versionCode": 2,
+  "versionName": "1.1.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.1.0/app-debug.apk",
+  "changelog": "- 新增应用内在线更新（清单检查/下载进度/一键安装）\n- 回顾页支持周报/月报/季报/半年报/年报\n- 新增 AI 大模型报告（自配置 OpenAI 兼容 API）\n- 新增心情趋势与写作热力图可视化",
+  "minSupported": 1
+}

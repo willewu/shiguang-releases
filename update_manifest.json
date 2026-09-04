@@ -1,11 +1,11 @@
 {
-  "versionCode": 8,
-  "versionName": "1.2.3",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.3/app-debug.apk",
+  "versionCode": 9,
+  "versionName": "1.2.4",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.4/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.3/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.4/app-debug.apk"
   ],
-  "sha256": "854561e747ecb6e6dee399a4aec1408a170e1bd0c4e73d9168bce02ed11c8dd1",
-  "changelog": "- 问 AI 支持时间检索：「7月份 / 去年7月 / 最近7天 / 上周 / 第三季度」等时间词会先按日记日期过滤再按内容排序，问某个月的事不再答非所问",
+  "sha256": "a1ec17ba710606d75c782cd3e7b6b8fdf83645a12896a3d3a0fb6cf17fb5d329",
+  "changelog": "- 问 AI 提速：上下文减半（最多 8 篇 / 4000 字），等待首字更快\n- 检索即时反馈：命中日记的日期立刻显示，不再干等转圈",
   "minSupported": 1
 }

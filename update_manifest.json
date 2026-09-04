@@ -1,11 +1,11 @@
 {
-  "versionCode": 4,
-  "versionName": "1.1.2",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.1.2/app-debug.apk",
+  "versionCode": 5,
+  "versionName": "1.2.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.1.2/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.0/app-debug.apk"
   ],
-  "sha256": "d77e5f3e96625d026b1683da662161a58eb0f537bd6b1fde7c7e4a317e4f0938",
-  "changelog": "- 更新下载提速：多下载源自动切换（GitHub 直连慢时自动切加速镜像）\n- 下载界面显示实时速度，下载完成校验 SHA-256 防篡改",
+  "sha256": "8c7bb37b9629bfc625d9b5d976e0bbdf017ea5bf271f73894f416ca0aee8a763",
+  "changelog": "- 新增「问 AI」日记问答：检索页右上角入口，用自然语言提问（如：我一共买了多少钱的人工智能 ETF？），AI 依据本地检索到的日记片段回答，来源日期可点击跳转\n- 支持多轮追问；检索全程本地完成，仅命中片段发送给你配置的 AI 服务",
   "minSupported": 1
 }

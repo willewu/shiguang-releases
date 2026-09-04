@@ -1,11 +1,11 @@
 {
-  "versionCode": 7,
-  "versionName": "1.2.2",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.2/app-debug.apk",
+  "versionCode": 8,
+  "versionName": "1.2.3",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.3/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.2/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.3/app-debug.apk"
   ],
-  "sha256": "55d0b218fdd5397701bc3a29e912dc119ba34b00c6984f02e97269da3c8e0294",
-  "changelog": "- 修复：键盘弹起时输入框不被顶起，问 AI 页及各页输入框现在会随输入法上移",
+  "sha256": "854561e747ecb6e6dee399a4aec1408a170e1bd0c4e73d9168bce02ed11c8dd1",
+  "changelog": "- 问 AI 支持时间检索：「7月份 / 去年7月 / 最近7天 / 上周 / 第三季度」等时间词会先按日记日期过滤再按内容排序，问某个月的事不再答非所问",
   "minSupported": 1
 }

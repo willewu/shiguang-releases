@@ -1,11 +1,11 @@
 {
-  "versionCode": 6,
-  "versionName": "1.2.1",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.1/app-debug.apk",
+  "versionCode": 7,
+  "versionName": "1.2.2",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.2/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.1/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.2/app-debug.apk"
   ],
-  "sha256": "6a84853c23c446943dda98d31cba809965931ee2f75ef2dc934f9910bdf18d69",
-  "changelog": "- 修复：检索页点击「问 AI」没有反应，问答页现在会正常全屏打开",
+  "sha256": "55d0b218fdd5397701bc3a29e912dc119ba34b00c6984f02e97269da3c8e0294",
+  "changelog": "- 修复：键盘弹起时输入框不被顶起，问 AI 页及各页输入框现在会随输入法上移",
   "minSupported": 1
 }

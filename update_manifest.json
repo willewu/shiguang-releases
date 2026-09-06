@@ -1,11 +1,11 @@
 {
-  "versionCode": 10,
-  "versionName": "1.2.5",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.5/app-debug.apk",
+  "versionCode": 11,
+  "versionName": "1.2.6",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.6/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.5/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.6/app-debug.apk"
   ],
-  "sha256": "a743a3e11d1aca5e4033cb39921314cbb023ab28bca36ca422855e2df6fd0c4a",
-  "changelog": "- 修复「问 AI」数错篇数：命中篇数改为本地精确统计，不再受 8 篇原文上限影响\n- 新增全量日记索引：所有命中日记以「日期+摘要」一行送给模型，列举类问题不再漏篇\n- 原文片段仍保留最相关的 8 篇，提示词更省 token",
+  "sha256": "4c17f56c51ecc2ab574309d3c1d5c00177b7edf5ec4c99e3b351988e5ace321e",
+  "changelog": "- 修复「问 AI」数错篇数：命中篇数改为本地精确统计，不再受 8 篇原文上限影响\n- 支持不带时间词的总数问题（如「我总共写了多少篇日记」）\n- 新增全量日记索引：所有命中日记以「日期+摘要」送给模型，列举类问题不再漏篇\n- 原文片段仍保留最相关的 8 篇，提示词更省 token",
   "minSupported": 1
 }

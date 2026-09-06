@@ -1,11 +1,11 @@
 {
-  "versionCode": 9,
-  "versionName": "1.2.4",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.4/app-debug.apk",
+  "versionCode": 10,
+  "versionName": "1.2.5",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.2.5/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.4/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.2.5/app-debug.apk"
   ],
-  "sha256": "a1ec17ba710606d75c782cd3e7b6b8fdf83645a12896a3d3a0fb6cf17fb5d329",
-  "changelog": "- 问 AI 提速：上下文减半（最多 8 篇 / 4000 字），等待首字更快\n- 检索即时反馈：命中日记的日期立刻显示，不再干等转圈",
+  "sha256": "a743a3e11d1aca5e4033cb39921314cbb023ab28bca36ca422855e2df6fd0c4a",
+  "changelog": "- 修复「问 AI」数错篇数：命中篇数改为本地精确统计，不再受 8 篇原文上限影响\n- 新增全量日记索引：所有命中日记以「日期+摘要」一行送给模型，列举类问题不再漏篇\n- 原文片段仍保留最相关的 8 篇，提示词更省 token",
   "minSupported": 1
 }

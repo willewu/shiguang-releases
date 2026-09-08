@@ -1,11 +1,11 @@
 {
-  "versionCode": 13,
-  "versionName": "1.3.1",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.3.1/app-debug.apk",
+  "versionCode": 14,
+  "versionName": "1.4.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.4.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.3.1/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.4.0/app-debug.apk"
   ],
-  "sha256": "61f4c432e0dc77563dec3c0232374ea0474dea5808da05aab5af60c635c8416a",
-  "changelog": "- 修复返回键：从日历/检索/回顾点某天进「今日」后，按返回原路退回来源页，不再直接退出应用\n- 启动后直接停在「今日」时，按返回切到日历，再按一次才退出\n- 「问 AI」全屏页支持系统返回，只收起问答页不退应用",
+  "sha256": "64c86005165a5fa24b997f94e3e12db9b1df27d33872cece8d4b1d8920aab1ec",
+  "changelog": "- 移除「文字问题提醒」：标点与字形问题不影响阅读，不再打扰\n- 新增「回顾提醒」（回顾页，可在「更多」关闭）：久未提及的话题、距上一篇日记的天数、近两周文字偏低落时的温和提示，全部本机计算\n- 安装包从 55 MB 减到 24 MB：只保留 arm64 的 OCR 原生库，32 位旧机型与模拟器不再支持",
   "minSupported": 1
 }

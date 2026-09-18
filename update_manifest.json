@@ -1,11 +1,11 @@
 {
-  "versionCode": 14,
-  "versionName": "1.4.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.4.0/app-debug.apk",
+  "versionCode": 15,
+  "versionName": "1.5.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.5.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.4.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.5.0/app-debug.apk"
   ],
-  "sha256": "64c86005165a5fa24b997f94e3e12db9b1df27d33872cece8d4b1d8920aab1ec",
-  "changelog": "- 移除「文字问题提醒」：标点与字形问题不影响阅读，不再打扰\n- 新增「回顾提醒」（回顾页，可在「更多」关闭）：久未提及的话题、距上一篇日记的天数、近两周文字偏低落时的温和提示，全部本机计算\n- 安装包从 55 MB 减到 24 MB：只保留 arm64 的 OCR 原生库，32 位旧机型与模拟器不再支持",
+  "sha256": "ac0af279a1ad78af871102a7b460301a766c772d83b351d01f06912b44212657",
+  "changelog": "- 新增「其他」页：检索移入其中成为子页面，检查更新 / AI 接口设置 / 导入笔记 / 回顾提醒开关也集中到这里\n- 新增国际金价：伦敦金现货，可切美元/盎司与元/克，实时与近1个月/3个月/半年/1年走势，手动刷新、不后台联网\n- 金价首次刷新会下载约 0.7 MB 历史日线，之后走本机缓存；数据来自新浪财经公开接口",
   "minSupported": 1
 }

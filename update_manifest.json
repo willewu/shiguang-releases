@@ -1,11 +1,11 @@
 {
-  "versionCode": 15,
-  "versionName": "1.5.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.5.0/app-debug.apk",
+  "versionCode": 16,
+  "versionName": "1.6.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.6.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.5.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.6.0/app-debug.apk"
   ],
-  "sha256": "ac0af279a1ad78af871102a7b460301a766c772d83b351d01f06912b44212657",
-  "changelog": "- 新增「其他」页：检索移入其中成为子页面，检查更新 / AI 接口设置 / 导入笔记 / 回顾提醒开关也集中到这里\n- 新增国际金价：伦敦金现货，可切美元/盎司与元/克，实时与近1个月/3个月/半年/1年走势，手动刷新、不后台联网\n- 金价首次刷新会下载约 0.7 MB 历史日线，之后走本机缓存；数据来自新浪财经公开接口",
+  "sha256": "e0080d876a8c587166d61ecbf044f1cf4645ff6ec4cfc9d718244ebd07a2db75",
+  "changelog": "- 新增「股票自选」（其他页）：导入基金/股票代码自动定名称，列表显示最新价、涨跌幅与涨跌额\n- 点进标的可看近1月/近3月/近6月的净值（场外）或收盘（场内）与日涨幅，手动刷新、不后台联网\n- 场内报价来自新浪财经、场外净值来自天天基金；重号代码（如 000001）按场内优先",
   "minSupported": 1
 }

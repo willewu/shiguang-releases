@@ -1,11 +1,11 @@
 {
-  "versionCode": 16,
-  "versionName": "1.6.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.6.0/app-debug.apk",
+  "versionCode": 17,
+  "versionName": "1.6.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.6.1/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.6.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.6.1/app-debug.apk"
   ],
-  "sha256": "e0080d876a8c587166d61ecbf044f1cf4645ff6ec4cfc9d718244ebd07a2db75",
-  "changelog": "- 新增「股票自选」（其他页）：导入基金/股票代码自动定名称，列表显示最新价、涨跌幅与涨跌额\n- 点进标的可看近1月/近3月/近6月的净值（场外）或收盘（场内）与日涨幅，手动刷新、不后台联网\n- 场内报价来自新浪财经、场外净值来自天天基金；重号代码（如 000001）按场内优先",
+  "sha256": "d8d8ee047128e92e92c7815e0263e8dd72fe2db5ea97ed04f6e559b6b4876691",
+  "changelog": "- 股票自选列表第三列由涨跌额改为连涨/连跌天数（如「涨一天」「跌两天」），最新一天平盘显示「平」\n- 列表刷新时顺带拉取并缓存场内标的日线：天数列刷新后即可算出，详情页断网也能回显",
   "minSupported": 1
 }

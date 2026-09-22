@@ -1,11 +1,11 @@
 {
-  "versionCode": 17,
-  "versionName": "1.6.1",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.6.1/app-debug.apk",
+  "versionCode": 18,
+  "versionName": "1.7.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.7.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.6.1/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.7.0/app-debug.apk"
   ],
-  "sha256": "d8d8ee047128e92e92c7815e0263e8dd72fe2db5ea97ed04f6e559b6b4876691",
-  "changelog": "- 股票自选列表第三列由涨跌额改为连涨/连跌天数（如「涨一天」「跌两天」），最新一天平盘显示「平」\n- 列表刷新时顺带拉取并缓存场内标的日线：天数列刷新后即可算出，详情页断网也能回显",
+  "sha256": "3b0dcf71d79d5b8630afc4053a8563fe3bf5245cbd3c4780dacb5aaf825d28d8",
+  "changelog": "- 股票自选详情页新增布林线（20日 ±2倍标准差）与 MACD（12/26/9）图表，随近1月/近3月/近6月页签切换\n- 指标由本机缓存日线本地计算，不新增联网；图例带最新值，数据不足时明示而非硬画",
   "minSupported": 1
 }

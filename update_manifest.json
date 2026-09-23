@@ -1,11 +1,11 @@
 {
-  "versionCode": 18,
-  "versionName": "1.7.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.7.0/app-debug.apk",
+  "versionCode": 19,
+  "versionName": "1.8.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.8.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.7.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.8.0/app-debug.apk"
   ],
-  "sha256": "3b0dcf71d79d5b8630afc4053a8563fe3bf5245cbd3c4780dacb5aaf825d28d8",
-  "changelog": "- 股票自选详情页新增布林线（20日 ±2倍标准差）与 MACD（12/26/9）图表，随近1月/近3月/近6月页签切换\n- 指标由本机缓存日线本地计算，不新增联网；图例带最新值，数据不足时明示而非硬画",
+  "sha256": "56ab77141fd901c1dc61d953ad7f1ed83b1c01b93ae85c715fb9c25dcc2899a0",
+  "changelog": "- 股票自选详情页新增「近1周」周期页签（表格与布林/MACD 图同窗口切换）\n- 国际金价曲线新增长按十字光标：按住显示所指交易日的收盘价与日期，跟随手指，抬手消失",
   "minSupported": 1
 }

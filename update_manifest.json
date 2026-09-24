@@ -1,11 +1,11 @@
 {
-  "versionCode": 19,
-  "versionName": "1.8.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.8.0/app-debug.apk",
+  "versionCode": 20,
+  "versionName": "1.9.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.9.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.8.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.9.0/app-debug.apk"
   ],
-  "sha256": "56ab77141fd901c1dc61d953ad7f1ed83b1c01b93ae85c715fb9c25dcc2899a0",
-  "changelog": "- 股票自选详情页新增「近1周」周期页签（表格与布林/MACD 图同窗口切换）\n- 国际金价曲线新增长按十字光标：按住显示所指交易日的收盘价与日期，跟随手指，抬手消失",
+  "sha256": "bf5ab6ca98adc557f4e98520b0e959ce7ac4964201ec49dc032ab254f5e3c42a",
+  "changelog": "- 国际金价「实时」页新增今日分时曲线：每分钟一点、北京时间、按当日实际交易时段自适应，含昨收基准线与长按十字光标\n- 分时数据源改用东方财富 trends2（伦敦金现货），时间戳即北京时间，无需时区换算",
   "minSupported": 1
 }

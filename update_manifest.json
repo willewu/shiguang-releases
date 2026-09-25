@@ -1,11 +1,11 @@
 {
-  "versionCode": 20,
-  "versionName": "1.9.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.9.0/app-debug.apk",
+  "versionCode": 21,
+  "versionName": "1.9.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.9.1/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.9.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.9.1/app-debug.apk"
   ],
-  "sha256": "bf5ab6ca98adc557f4e98520b0e959ce7ac4964201ec49dc032ab254f5e3c42a",
-  "changelog": "- 国际金价「实时」页新增今日分时曲线：每分钟一点、北京时间、按当日实际交易时段自适应，含昨收基准线与长按十字光标\n- 分时数据源改用东方财富 trends2（伦敦金现货），时间戳即北京时间，无需时区换算",
+  "sha256": "1111762e0cac10d6d7bf3e031823625e93bf589950a55bcf8cd4ad11b9796377",
+  "changelog": "- 修复：国际金价「实时」页分时曲线不显示（分时接口单主机间歇不可达，改为多镜像主机逐个回退）\n- 进入或切到「实时」页自动加载当日分时，分时拉取失败改为显式报错，不再静默",
   "minSupported": 1
 }

@@ -1,11 +1,11 @@
 {
-  "versionCode": 21,
-  "versionName": "1.9.1",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.9.1/app-debug.apk",
+  "versionCode": 22,
+  "versionName": "1.10.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.10.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.9.1/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.10.0/app-debug.apk"
   ],
-  "sha256": "1111762e0cac10d6d7bf3e031823625e93bf589950a55bcf8cd4ad11b9796377",
-  "changelog": "- 修复：国际金价「实时」页分时曲线不显示（分时接口单主机间歇不可达，改为多镜像主机逐个回退）\n- 进入或切到「实时」页自动加载当日分时，分时拉取失败改为显式报错，不再静默",
+  "sha256": "23452d900011a2869d7c2398611bb59ee64c53223cb2bf4080985a8b160823c1",
+  "changelog": "- 国际金价「今日行情」最高/最低右侧新增发生时间（精确到分，北京时间）\n- 金价日线图与实时分时图新增背景网格框；实时分时图标记当日最高/最低点并带时间\n- 股票自选列表在「涨/跌N天」右侧新增该段区间累计涨跌幅，平盘或无数据展示「/」",
   "minSupported": 1
 }

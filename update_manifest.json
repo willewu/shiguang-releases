@@ -1,11 +1,11 @@
 {
-  "versionCode": 22,
-  "versionName": "1.10.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.10.0/app-debug.apk",
+  "versionCode": 23,
+  "versionName": "1.10.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.10.1/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.10.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.10.1/app-debug.apk"
   ],
-  "sha256": "23452d900011a2869d7c2398611bb59ee64c53223cb2bf4080985a8b160823c1",
-  "changelog": "- 国际金价「今日行情」最高/最低右侧新增发生时间（精确到分，北京时间）\n- 金价日线图与实时分时图新增背景网格框；实时分时图标记当日最高/最低点并带时间\n- 股票自选列表在「涨/跌N天」右侧新增该段区间累计涨跌幅，平盘或无数据展示「/」",
+  "sha256": "d578a5b3d81ef1a133c2c26f86202a93b1a5e9e620b04a7bb6789f3777fc9d5f",
+  "changelog": "- 修复：国际金价图表网格线颜色太浅、与背景混成一片看不见，改用高对比度灰色并加粗，实时页与历史曲线两张图都清晰可辨",
   "minSupported": 1
 }

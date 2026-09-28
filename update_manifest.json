@@ -1,11 +1,11 @@
 {
-  "versionCode": 23,
-  "versionName": "1.10.1",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.10.1/app-debug.apk",
+  "versionCode": 24,
+  "versionName": "1.11.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.11.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.10.1/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.11.0/app-debug.apk"
   ],
-  "sha256": "d578a5b3d81ef1a133c2c26f86202a93b1a5e9e620b04a7bb6789f3777fc9d5f",
-  "changelog": "- 修复：国际金价图表网格线颜色太浅、与背景混成一片看不见，改用高对比度灰色并加粗，实时页与历史曲线两张图都清晰可辨",
+  "sha256": "a39e21ddc17d97b48df52076e0011323fc0420964e9356566d867ad3d70a7385",
+  "changelog": "- 国际金价（实时分时图 / 历史日线图）与股票自选详情（布林线 / MACD）图表各新增「全屏」按钮\n- 点「全屏」图表自动旋转为横屏并铺满整屏放大显示，再点「退出全屏」或按返回键恢复竖屏\n- 全屏与卡片内使用完全相同的绘制逻辑，十字光标、极值标记、网格等一并保留",
   "minSupported": 1
 }

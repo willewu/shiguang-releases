@@ -1,11 +1,11 @@
 {
-  "versionCode": 26,
-  "versionName": "1.11.2",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.11.2/app-debug.apk",
+  "versionCode": 27,
+  "versionName": "1.12.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.12.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.11.2/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.12.0/app-debug.apk"
   ],
-  "sha256": "0309d85189b8a944888d798a1597adb475ae0ed21f5ed2547cbbf172ebe51594",
-  "changelog": "- 图表全屏时隐藏底部导航栏（今日/日历/回顾/其他），横屏画面纵向也铺满、比例更协调\n- 承接 v1.11.1：全屏为同窗口横屏覆盖层，旋转后按横屏真实宽高铺开，曲线拉得开、信息看得全",
+  "sha256": "2ece070c281e060f0438c4b754d2c841b0cdcad6fdb9ddec0b0d074b2d526a8e",
+  "changelog": "- 今日页支持左右滑动切换日期：向左滑到后一天、向右滑到前一天（最多翻到今天，不会进到未来）\n- 顶栏日期两侧新增 ◀ ▶ 按钮，点一下也能逐日切换\n- 切换日期前会静默保存当前草稿，滑动翻页不丢内容；在正文里滑动或选中文字不会误触发翻页\n- 含 v1.11.x：图表全屏横屏放大、全屏时隐藏底部导航栏",
   "minSupported": 1
 }

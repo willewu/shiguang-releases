@@ -1,11 +1,11 @@
 {
-  "versionCode": 27,
-  "versionName": "1.12.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.12.0/app-debug.apk",
+  "versionCode": 28,
+  "versionName": "1.12.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.12.1/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.12.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.12.1/app-debug.apk"
   ],
-  "sha256": "2ece070c281e060f0438c4b754d2c841b0cdcad6fdb9ddec0b0d074b2d526a8e",
-  "changelog": "- 今日页支持左右滑动切换日期：向左滑到后一天、向右滑到前一天（最多翻到今天，不会进到未来）\n- 顶栏日期两侧新增 ◀ ▶ 按钮，点一下也能逐日切换\n- 切换日期前会静默保存当前草稿，滑动翻页不丢内容；在正文里滑动或选中文字不会误触发翻页\n- 含 v1.11.x：图表全屏横屏放大、全屏时隐藏底部导航栏",
+  "sha256": "b5fb0bb610755f2f6918e4c0a42dfdca9eed4c8b865f82f6d969622755953f0f",
+  "changelog": "- 修正今日页滑动方向：向左滑=前一天、向右滑=后一天（与顶栏 ◀ ▶ 箭头同向，左=更早、右=更晚）\n- 已在今天还往后翻时，提示「已经是最新的日期」，不再静默无反应\n- 含 v1.12.0：今日页左右滑动切日期 + 顶栏 ◀ ▶ 按钮；切换前静默保存草稿不丢内容",
   "minSupported": 1
 }

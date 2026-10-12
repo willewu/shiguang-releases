@@ -1,11 +1,11 @@
 {
-  "versionCode": 30,
-  "versionName": "1.13.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.13.0/app-debug.apk",
+  "versionCode": 31,
+  "versionName": "1.14.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.14.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.13.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.14.0/app-debug.apk"
   ],
-  "sha256": "0db89fcee02ec5b4c4066b71d58a38e09e7f405f2e32740b9cb742f8f968e1ba",
-  "changelog": "- 股票自选列表每只标的新增「近10日最大跌幅」：最近10个交易日内最高收盘与最低收盘相差的百分比（(高−低)/高×100），数据不足显示「--」\n- 由本机缓存日线/净值本地计算，不新增任何联网请求",
+  "sha256": "d5424e1e4fb8088f1cc9a356e75720c08078a4d4e00d2e9e9bafe9072d0ae7f3",
+  "changelog": "- 股票自选「近10日」列由固定跌幅改为趋势涨跌：现价处10日区间上半显示最大涨幅（区间最低→现价）、下半显示最大跌幅（区间最高→现价）；现价恰为最高=最大涨幅、恰为最低=最大跌幅\n- 涨红跌绿，数据不足或区间无振幅显示「--」；由本机缓存本地计算，不新增联网",
   "minSupported": 1
 }

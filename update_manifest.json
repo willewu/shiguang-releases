@@ -1,11 +1,11 @@
 {
-  "versionCode": 29,
-  "versionName": "1.12.2",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.12.2/app-debug.apk",
+  "versionCode": 30,
+  "versionName": "1.13.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.13.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.12.2/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.13.0/app-debug.apk"
   ],
-  "sha256": "f573ebe2a38fc3577be808fb8f764300a55e18ccfb208b28665c1ba15033ba96",
-  "changelog": "- 修正今日页滑动翻页方向：手指向左划=后一天、向右划=前一天（按内容跟随手指的翻页习惯，真机反馈调正）\n- 顶栏 ◀ ▶ 箭头不变：◀=前一天、▶=后一天；已在今天再往后翻提示「已经是最新的日期」\n- 含 v1.12.0：今日页左右滑动切日期 + 顶栏 ◀ ▶ 按钮；切换前静默保存草稿不丢内容",
+  "sha256": "0db89fcee02ec5b4c4066b71d58a38e09e7f405f2e32740b9cb742f8f968e1ba",
+  "changelog": "- 股票自选列表每只标的新增「近10日最大跌幅」：最近10个交易日内最高收盘与最低收盘相差的百分比（(高−低)/高×100），数据不足显示「--」\n- 由本机缓存日线/净值本地计算，不新增任何联网请求",
   "minSupported": 1
 }

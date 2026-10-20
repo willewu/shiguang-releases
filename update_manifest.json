@@ -1,11 +1,11 @@
 {
-  "versionCode": 31,
-  "versionName": "1.14.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.14.0/app-debug.apk",
+  "versionCode": 32,
+  "versionName": "1.15.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.15.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.14.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.15.0/app-debug.apk"
   ],
-  "sha256": "d5424e1e4fb8088f1cc9a356e75720c08078a4d4e00d2e9e9bafe9072d0ae7f3",
-  "changelog": "- 股票自选「近10日」列由固定跌幅改为趋势涨跌：现价处10日区间上半显示最大涨幅（区间最低→现价）、下半显示最大跌幅（区间最高→现价）；现价恰为最高=最大涨幅、恰为最低=最大跌幅\n- 涨红跌绿，数据不足或区间无振幅显示「--」；由本机缓存本地计算，不新增联网",
+  "sha256": "cb61698c7e778ca541965bc990cfb3d1583990075b55beafc307c3659671ed1d",
+  "changelog": "- 国际金价「近1个月」改为分钟累积曲线：每次刷新（或进入实时/近1月）取东方财富最近 5 个交易日分时并入本机缓存，逐日累积\n- 按真实时间映射，夜间休市与尚未累积的交易日断开不连线；十字光标显示日期+时刻+价格；每分钟取该分钟收盘（最后值）\n- 未累积到分钟数据时先按日线显示并提示刷新；分时请求由 1 日改为 5 日（约 400 KB），实时页仍显示最新一日",
   "minSupported": 1
 }

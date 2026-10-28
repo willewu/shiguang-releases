@@ -1,11 +1,11 @@
 {
-  "versionCode": 34,
-  "versionName": "1.16.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.0/app-debug.apk",
+  "versionCode": 35,
+  "versionName": "1.16.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.1/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.0/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.1/app-debug.apk"
   ],
-  "sha256": "f2d991733ec2661c6730e3c746a7ef52db207e5f954d728d0899099fc8678b9e",
-  "changelog": "- 国际金价「近1个月」新增显示模式切换：「分钟细节」（逐分钟累积曲线，默认）/「每日收盘」（每天一个点的日线样式）\n- 选择会记住（本机持久化）；选「分钟细节」但还没有分钟数据时会立即抓取最近 5 个交易日\n- 「每日收盘」为日线接口的当日收盘价，非当日分钟均价",
+  "sha256": "32029d9d0f23824671fc1994607640a24792628fcf700a089d0dd3f4074ee0a8",
+  "changelog": "- 近1个月分钟曲线：按住查看价格时的读数移到图下方，不再压住右上角「最高」标注；实时分时与历史日线同步调整\n- 分时图与曲线卡标题行：窄屏或系统字号放大时不再把「区间涨跌」和「全屏」按钮挤出屏幕\n- 股票自选列表：近10日趋势独占一行，连涨与累计幅度列瘦身，名称与代码单行省略，行高不再参差\n- 今日行情时间列加宽防折行；单位与月模式切换可横向滚动；全屏图表避让摄像头挖孔",
   "minSupported": 1
 }

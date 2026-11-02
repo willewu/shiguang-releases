@@ -1,11 +1,11 @@
 {
-  "versionCode": 35,
-  "versionName": "1.16.1",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.1/app-debug.apk",
+  "versionCode": 36,
+  "versionName": "1.16.2",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.2/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.1/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.2/app-debug.apk"
   ],
-  "sha256": "32029d9d0f23824671fc1994607640a24792628fcf700a089d0dd3f4074ee0a8",
-  "changelog": "- 近1个月分钟曲线：按住查看价格时的读数移到图下方，不再压住右上角「最高」标注；实时分时与历史日线同步调整\n- 分时图与曲线卡标题行：窄屏或系统字号放大时不再把「区间涨跌」和「全屏」按钮挤出屏幕\n- 股票自选列表：近10日趋势独占一行，连涨与累计幅度列瘦身，名称与代码单行省略，行高不再参差\n- 今日行情时间列加宽防折行；单位与月模式切换可横向滚动；全屏图表避让摄像头挖孔",
+  "sha256": "f36ccdf53bb21f0a0d280302e0312355e561a3bf0f177b7c7256715d00852efe",
+  "changelog": "- 国际金价「近1个月」的分钟视图改为只显示最近 5 个交易日（数据源上限），不再逐日累积成整月\n- 横轴改为逐交易日标注日期；夜间休市与周末为断口\n- 缓存只保留最近 5 日，不再占用整月数据\n- 按住查看分钟价格时读数显示在图下方，不遮挡最高/最低标注\n- 「每日收盘」模式保持不变",
   "minSupported": 1
 }

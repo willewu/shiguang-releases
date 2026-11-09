@@ -1,11 +1,11 @@
 {
-  "versionCode": 38,
-  "versionName": "1.16.4",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.4/app-debug.apk",
+  "versionCode": 39,
+  "versionName": "1.16.5",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.5/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.4/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.5/app-debug.apk"
   ],
-  "sha256": "481a55522737e4d5fd31a9e6c7013e33a9a988a2efac8e586138ed114b966abb",
-  "changelog": "- 本地大模型（Ollama 等）支持局域网 http 端点：系统层放开明文，应用层只允许私有网段/回环，公网 http 仍拒绝\n- 切换 AI 服务商时清空旧 API Key，避免 401\n- 修复 Android 8.0/8.1 上更新检查永远提示有新版本\n- 更新清单与 APK 下载链接强制 https，http 镜像自动丢弃\n- Android 12+ 备份/迁移规则：日记、偏好与缓存全部排除",
+  "sha256": "82dea4cacb633f52e907e3ea61b6048255ff3c2881fd3d8f02365f8b279f38e5",
+  "changelog": "- 移除 Ollama 本地选项，AI 接口只保留远程 HTTPS 服务（DeepSeek / MIMO / OpenAI / 自定义）\n- 所有 LLM 端点强制 HTTPS，不再放行任何明文 http\n- 旧 Ollama 配置自动迁回 DeepSeek 预设（需重新填 Key）\n- 无 API Key 时视为未配置",
   "minSupported": 1
 }

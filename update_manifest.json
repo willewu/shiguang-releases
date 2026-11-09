@@ -1,11 +1,11 @@
 {
-  "versionCode": 37,
-  "versionName": "1.16.3",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.3/app-debug.apk",
+  "versionCode": 38,
+  "versionName": "1.16.4",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.4/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.3/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.4/app-debug.apk"
   ],
-  "sha256": "27f371e8aa2108c737d0014184758ada2ce02da8c74e9a39799e1a334eef191d",
-  "changelog": "- 近5日分钟图不再为周末与节假日留白：x 轴按交易日拼接，休市时间不占宽度\n- 每个交易日内部按分钟等距，交易日之间断开、不连跳空线\n- 日期标签按各交易日实际点数分配宽度，与曲线段中心对齐",
+  "sha256": "481a55522737e4d5fd31a9e6c7013e33a9a988a2efac8e586138ed114b966abb",
+  "changelog": "- 本地大模型（Ollama 等）支持局域网 http 端点：系统层放开明文，应用层只允许私有网段/回环，公网 http 仍拒绝\n- 切换 AI 服务商时清空旧 API Key，避免 401\n- 修复 Android 8.0/8.1 上更新检查永远提示有新版本\n- 更新清单与 APK 下载链接强制 https，http 镜像自动丢弃\n- Android 12+ 备份/迁移规则：日记、偏好与缓存全部排除",
   "minSupported": 1
 }

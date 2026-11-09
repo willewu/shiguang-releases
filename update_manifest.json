@@ -1,11 +1,11 @@
 {
-  "versionCode": 36,
-  "versionName": "1.16.2",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.2/app-debug.apk",
+  "versionCode": 37,
+  "versionName": "1.16.3",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.3/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.2/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.3/app-debug.apk"
   ],
-  "sha256": "f36ccdf53bb21f0a0d280302e0312355e561a3bf0f177b7c7256715d00852efe",
-  "changelog": "- 国际金价「近1个月」的分钟视图改为只显示最近 5 个交易日（数据源上限），不再逐日累积成整月\n- 横轴改为逐交易日标注日期；夜间休市与周末为断口\n- 缓存只保留最近 5 日，不再占用整月数据\n- 按住查看分钟价格时读数显示在图下方，不遮挡最高/最低标注\n- 「每日收盘」模式保持不变",
+  "sha256": "27f371e8aa2108c737d0014184758ada2ce02da8c74e9a39799e1a334eef191d",
+  "changelog": "- 近5日分钟图不再为周末与节假日留白：x 轴按交易日拼接，休市时间不占宽度\n- 每个交易日内部按分钟等距，交易日之间断开、不连跳空线\n- 日期标签按各交易日实际点数分配宽度，与曲线段中心对齐",
   "minSupported": 1
 }

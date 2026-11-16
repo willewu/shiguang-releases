@@ -1,11 +1,11 @@
 {
-  "versionCode": 39,
-  "versionName": "1.16.5",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.16.5/app-debug.apk",
+  "versionCode": 40,
+  "versionName": "1.17.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.16.5/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk"
   ],
-  "sha256": "82dea4cacb633f52e907e3ea61b6048255ff3c2881fd3d8f02365f8b279f38e5",
-  "changelog": "- 移除 Ollama 本地选项，AI 接口只保留远程 HTTPS 服务（DeepSeek / MIMO / OpenAI / 自定义）\n- 所有 LLM 端点强制 HTTPS，不再放行任何明文 http\n- 旧 Ollama 配置自动迁回 DeepSeek 预设（需重新填 Key）\n- 无 API Key 时视为未配置",
+  "sha256": "ca06d2fb2e6a0fc4b7091ec9cca14db0021662b650a1161fa85081ab11a47cd7",
+  "changelog": "- 新增「我的积存金」（国际金价页顶栏入口）：截图离线识别买入单价/克数/总价，核对修正后保存，支持手动新增、编辑、删除\n- 买入价时间序列散点+细线，叠加加权成本与当前金价线，支持全屏与按住查看\n- 汇总累计买入克数/金额、加权成本、估算浮动盈亏（按未卖出、不计手续费）\n- 记录仅存本机，不保存截图与识别原文，不新增网络请求",
   "minSupported": 1
 }

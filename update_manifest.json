@@ -3,6 +3,7 @@
   "versionName": "1.17.0",
   "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk",
   "mirrors": [
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk",
     "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk"
   ],
   "sha256": "ca06d2fb2e6a0fc4b7091ec9cca14db0021662b650a1161fa85081ab11a47cd7",

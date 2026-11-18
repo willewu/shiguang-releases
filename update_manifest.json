@@ -1,12 +1,12 @@
 {
-  "versionCode": 40,
-  "versionName": "1.17.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk",
+  "versionCode": 41,
+  "versionName": "1.17.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.1/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.0/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.1/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.1/app-debug.apk"
   ],
-  "sha256": "ca06d2fb2e6a0fc4b7091ec9cca14db0021662b650a1161fa85081ab11a47cd7",
-  "changelog": "- 新增「我的积存金」（国际金价页顶栏入口）：截图离线识别买入单价/克数/总价，核对修正后保存，支持手动新增、编辑、删除\n- 买入价时间序列散点+细线，叠加加权成本与当前金价线，支持全屏与按住查看\n- 汇总累计买入克数/金额、加权成本、估算浮动盈亏（按未卖出、不计手续费）\n- 记录仅存本机，不保存截图与识别原文，不新增网络请求",
+  "sha256": "ce7f54df4db4b0e80c665612d62c54f3976ec769b44883601af126b9f00d57c3",
+  "changelog": "- 积存金截图识别支持「交易记录」三列表格：金额、克重、成交价格按列正确解析\n- 一张截图可识别多笔买入，兼容不同 OCR 文本顺序\n- 新增整批确认弹窗：核对后导入，未通过校验及已存在的记录明确标注并跳过\n- 导入后可逐条编辑、删除",
   "minSupported": 1
 }

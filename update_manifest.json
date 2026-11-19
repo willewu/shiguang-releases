@@ -1,12 +1,12 @@
 {
-  "versionCode": 45,
-  "versionName": "1.17.5",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.5/app-debug.apk",
+  "versionCode": 46,
+  "versionName": "1.17.6",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.6/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.5/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.5/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.6/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.6/app-debug.apk"
   ],
-  "sha256": "b1a911f992edea0d7d437cf5271346759696126e31b8baf4929b72a4fe45fb1e",
-  "changelog": "- OCR 状态错字容错：「买入确认戌功」「买入失先败」等可正确判定成功/失败\n- 交易关闭/买入失败/赠金行依旧整行剔除并明示笔数\n- 列块配对守卫不变：数量或状态错位时留空不猜，可点行补填\n- 以真实 OCR 原文（含杂讯、坏日期）作回归单测",
+  "sha256": "536774154fe3a49b3c02df4a7a63b29cbfcef3a2c973d07474b031650f73dd01",
+  "changelog": "- 修正含赠金行截图的金额配对：赠金金额为 -- 不占槽，改按买入行数配对\n- 金额序号推进包含失败行，杜绝总价错位\n- 克数/单价仍按成功笔数配对；数量不齐留空不猜、可点行补填\n- 新增含赠金九笔列块与失败行占槽两个回归单测",
   "minSupported": 1
 }

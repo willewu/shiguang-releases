@@ -1,12 +1,12 @@
 {
-  "versionCode": 44,
-  "versionName": "1.17.4",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.4/app-debug.apk",
+  "versionCode": 45,
+  "versionName": "1.17.5",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.5/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.4/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.4/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.5/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.5/app-debug.apk"
   ],
-  "sha256": "8734b67346a3f651ac8ad47045add3f369c28186ce617aa275d8be3515cf0445",
-  "changelog": "- 新增三列块 OCR 顺序解析：日期与单价自动正确，失败/关闭/赠金行逐行剔除\n- 克数/金额列识别不全时留空不猜，点记录行打开编辑器对照截图补填\n- 整批确认弹窗行可点按，保存后自动回到列表\n- 识别原文可长按选择复制",
+  "sha256": "b1a911f992edea0d7d437cf5271346759696126e31b8baf4929b72a4fe45fb1e",
+  "changelog": "- OCR 状态错字容错：「买入确认戌功」「买入失先败」等可正确判定成功/失败\n- 交易关闭/买入失败/赠金行依旧整行剔除并明示笔数\n- 列块配对守卫不变：数量或状态错位时留空不猜，可点行补填\n- 以真实 OCR 原文（含杂讯、坏日期）作回归单测",
   "minSupported": 1
 }

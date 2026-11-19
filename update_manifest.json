@@ -1,12 +1,12 @@
 {
-  "versionCode": 46,
-  "versionName": "1.17.6",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.6/app-debug.apk",
+  "versionCode": 47,
+  "versionName": "1.18.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.18.0/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.6/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.6/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.18.0/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.18.0/app-debug.apk"
   ],
-  "sha256": "536774154fe3a49b3c02df4a7a63b29cbfcef3a2c973d07474b031650f73dd01",
-  "changelog": "- 修正含赠金行截图的金额配对：赠金金额为 -- 不占槽，改按买入行数配对\n- 金额序号推进包含失败行，杜绝总价错位\n- 克数/单价仍按成功笔数配对；数量不齐留空不猜、可点行补填\n- 新增含赠金九笔列块与失败行占槽两个回归单测",
+  "sha256": "a84fb7b060b2eeb356614c9f6b3cd90c109c88162206f3cd4c79534510d8bb3d",
+  "changelog": "- 积存金截图表格改为按 OCR 坐标重建：与识别块序无关，换图不再重新猜顺序\n- 丢单元格只影响本行本列并提示补填，不会串位到其他行\n- 赠金/交易关闭/买入失败行各占一行自动剔除并明示笔数\n- 行带含半行容差，抗 OCR 框顶抖动；表头粘连时自动退化聚类\n- 旧文本解析保留兜底；草稿确认与校验流程不变",
   "minSupported": 1
 }

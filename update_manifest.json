@@ -1,12 +1,12 @@
 {
-  "versionCode": 42,
-  "versionName": "1.17.2",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.2/app-debug.apk",
+  "versionCode": 43,
+  "versionName": "1.17.3",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.3/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.2/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.2/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.3/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.3/app-debug.apk"
   ],
-  "sha256": "94b67197eb061c28789cdc5afb0e1ca2b8cc0dabcde79a84777bde2878feca78",
-  "changelog": "- 积存金截图导入自动剔除未成功交易：交易关闭、买入失败、撤销、退款、进行中等整行剔除\n- 赠金/卖出/赎回行整段剔除，其日期与金额不再混入相邻的成功买入\n- 整批确认弹窗明示剔除笔数；整张截图均未成功时只给提示、不给草稿\n- 单张未成功交易截图同样剔除并提示",
+  "sha256": "bc0151661ac0de711278518f7ef30397052f3bb39b0e069305e5e0558c316e74",
+  "changelog": "- 修复 OCR 单元格粘连（无空格/换行）时交易记录表识别失败的问题\n- 修复秒数与克数粘连被误读（如 401.1965 克）的问题\n- 按列粘连文本一行多值按出现次数正确配对\n- 单条解析跳过表格头行，不再把年份当单价/总价\n- 继承 v1.17.2：自动剔除交易关闭/买入失败/赠金等未成功或非买入记录",
   "minSupported": 1
 }

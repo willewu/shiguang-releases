@@ -1,12 +1,12 @@
 {
-  "versionCode": 43,
-  "versionName": "1.17.3",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.3/app-debug.apk",
+  "versionCode": 44,
+  "versionName": "1.17.4",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.17.4/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.3/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.3/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.17.4/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.17.4/app-debug.apk"
   ],
-  "sha256": "bc0151661ac0de711278518f7ef30397052f3bb39b0e069305e5e0558c316e74",
-  "changelog": "- 修复 OCR 单元格粘连（无空格/换行）时交易记录表识别失败的问题\n- 修复秒数与克数粘连被误读（如 401.1965 克）的问题\n- 按列粘连文本一行多值按出现次数正确配对\n- 单条解析跳过表格头行，不再把年份当单价/总价\n- 继承 v1.17.2：自动剔除交易关闭/买入失败/赠金等未成功或非买入记录",
+  "sha256": "8734b67346a3f651ac8ad47045add3f369c28186ce617aa275d8be3515cf0445",
+  "changelog": "- 新增三列块 OCR 顺序解析：日期与单价自动正确，失败/关闭/赠金行逐行剔除\n- 克数/金额列识别不全时留空不猜，点记录行打开编辑器对照截图补填\n- 整批确认弹窗行可点按，保存后自动回到列表\n- 识别原文可长按选择复制",
   "minSupported": 1
 }

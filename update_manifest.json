@@ -1,12 +1,12 @@
 {
-  "versionCode": 48,
-  "versionName": "1.19.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.19.0/app-debug.apk",
+  "versionCode": 49,
+  "versionName": "1.20.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.20.0/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.19.0/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.19.0/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.20.0/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.20.0/app-debug.apk"
   ],
-  "sha256": "25e790af711554a3d789a55e42a6f8cbfe2af1eb9913e45963514b63cdf2588c",
-  "changelog": "- 买入单价走势新增四种形式切换：曲线 / 气泡·成本 / 拉动瀑布 / 克重柱\n- 气泡·成本（默认）：气泡大小=克数权重，橙阶梯线=每笔后累计加权成本，按住显示该笔拉动±元/克\n- 拉动瀑布：每笔柱=对加权成本的拉动区间，红拉高绿拉低，柱长=影响大小\n- 克重柱：克数柱(左轴)+单价线(右轴)同屏对照权重与价格\n- 全屏沿用所选模式；成本演进计算下沉 nlp 纯函数并加单测",
+  "sha256": "0665bc903c33dd76627de1cdc558543154219fee91fd2272ccac580cae41c99c",
+  "changelog": "- AI 接口设置新增「读取模型」：按当前编辑的端点+Key 读取 OpenAI 兼容模型列表（仅 HTTPS、失败显式报错）\n- 模型选择器支持搜索过滤、滚动浏览、点选回填，当前模型高亮；可随时重开已读列表\n- 手动输入模型 ID 保留；保存时才生效\n- 模型列表解析容错多种响应格式并去重保序",
   "minSupported": 1
 }

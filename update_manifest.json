@@ -1,12 +1,12 @@
 {
-  "versionCode": 47,
-  "versionName": "1.18.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.18.0/app-debug.apk",
+  "versionCode": 48,
+  "versionName": "1.19.0",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.19.0/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.18.0/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.18.0/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.19.0/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.19.0/app-debug.apk"
   ],
-  "sha256": "a84fb7b060b2eeb356614c9f6b3cd90c109c88162206f3cd4c79534510d8bb3d",
-  "changelog": "- 积存金截图表格改为按 OCR 坐标重建：与识别块序无关，换图不再重新猜顺序\n- 丢单元格只影响本行本列并提示补填，不会串位到其他行\n- 赠金/交易关闭/买入失败行各占一行自动剔除并明示笔数\n- 行带含半行容差，抗 OCR 框顶抖动；表头粘连时自动退化聚类\n- 旧文本解析保留兜底；草稿确认与校验流程不变",
+  "sha256": "25e790af711554a3d789a55e42a6f8cbfe2af1eb9913e45963514b63cdf2588c",
+  "changelog": "- 买入单价走势新增四种形式切换：曲线 / 气泡·成本 / 拉动瀑布 / 克重柱\n- 气泡·成本（默认）：气泡大小=克数权重，橙阶梯线=每笔后累计加权成本，按住显示该笔拉动±元/克\n- 拉动瀑布：每笔柱=对加权成本的拉动区间，红拉高绿拉低，柱长=影响大小\n- 克重柱：克数柱(左轴)+单价线(右轴)同屏对照权重与价格\n- 全屏沿用所选模式；成本演进计算下沉 nlp 纯函数并加单测",
   "minSupported": 1
 }

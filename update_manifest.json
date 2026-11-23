@@ -1,12 +1,12 @@
 {
-  "versionCode": 49,
-  "versionName": "1.20.0",
-  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.20.0/app-debug.apk",
+  "versionCode": 50,
+  "versionName": "1.20.1",
+  "apkUrl": "https://github.com/willewu/shiguang-releases/releases/download/v1.20.1/app-debug.apk",
   "mirrors": [
-    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.20.0/app-debug.apk",
-    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.20.0/app-debug.apk"
+    "https://ghproxy.net/https://github.com/willewu/shiguang-releases/releases/download/v1.20.1/app-debug.apk",
+    "https://gh-proxy.com/https://github.com/willewu/shiguang-releases/releases/download/v1.20.1/app-debug.apk"
   ],
-  "sha256": "0665bc903c33dd76627de1cdc558543154219fee91fd2272ccac580cae41c99c",
-  "changelog": "- AI 接口设置新增「读取模型」：按当前编辑的端点+Key 读取 OpenAI 兼容模型列表（仅 HTTPS、失败显式报错）\n- 模型选择器支持搜索过滤、滚动浏览、点选回填，当前模型高亮；可随时重开已读列表\n- 手动输入模型 ID 保留；保存时才生效\n- 模型列表解析容错多种响应格式并去重保序",
+  "sha256": "cf873c0bba79b744d348fa179cbdffe63f807b7b6540dddd314a5fa64fa82973",
+  "changelog": "- AI 接口设置只保留在用的两家服务商：DeepSeek 与 MIMO（小米），胶囊一行放下不再横向滚动\n- 下线 OpenAI / 自定义预设；端点与模型仍可手动修改，接其他 HTTPS 服务不受影响\n- 旧版本若选的是已下线服务商，自动迁回默认服务商并清空旧 Key\n- 回顾页与设置页文案同步为新口径\n- 新增 5 条守卫单测（服务商范围 / HTTPS 预设 / 端点模型锁定 / 默认一致 / 下线名不可解析）",
   "minSupported": 1
 }
